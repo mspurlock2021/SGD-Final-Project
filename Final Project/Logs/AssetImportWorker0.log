@@ -15,11 +15,11 @@ C:/Users/jspurlin/Documents/GitHub/SGD-Final-Project/Final Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50810
+59477
 Successfully changed project path to: C:/Users/jspurlin/Documents/GitHub/SGD-Final-Project/Final Project
 C:/Users/jspurlin/Documents/GitHub/SGD-Final-Project/Final Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 55.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,392 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002394 seconds.
+Registered in 0.003701 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.579 seconds
+- Completed reload, in  1.493 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1579ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (1493ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (470ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (407ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (145ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (214ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (168ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (64ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014699 seconds.
+Registered in 0.011011 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 54.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.710 seconds
+- Completed reload, in  1.188 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1711ms)
-		BeginReloadAssembly (258ms)
+	ReloadAssembly (1189ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1359ms)
-			LoadAssemblies (167ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (982ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (390ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (636ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (415ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (444ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2705 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 124.1 MB.
-System memory in use after: 124.2 MB.
+System memory in use after: 124.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3142.
-Total: 4.454500 ms (FindLiveObjects: 0.329900 ms CreateObjectMapping: 0.153700 ms MarkObjects: 3.868200 ms  DeleteObjects: 0.101500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6de71c0b39d910f28d91d9fa6da2c1') in 0.019289 seconds 
-  Import took 0.024670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 548.980374 seconds.
-  path: Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Wand/Wand_Textures/Wand_Basic.mat
-  artifactKey: Guid(b1a5ec2156775cb45a88adcc2c6c5335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Wand/Wand_Textures/Wand_Basic.mat using Guid(b1a5ec2156775cb45a88adcc2c6c5335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb5ffeb7e5b95b3f7c53bc287ba0b9a') in 0.273253 seconds 
-  Import took 0.288484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Wand/Wand_Textures/Wand_Epic.mat
-  artifactKey: Guid(37061580f1d5a6540bca7f9077145d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Wand/Wand_Textures/Wand_Epic.mat using Guid(37061580f1d5a6540bca7f9077145d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476188897e369fd62402c318f89ea5e1') in 0.060020 seconds 
-  Import took 0.064756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Wand/Wand_Textures/Wand_Medium.mat
-  artifactKey: Guid(01adec13b5bee0a4fa62209d4664b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Wand/Wand_Textures/Wand_Medium.mat using Guid(01adec13b5bee0a4fa62209d4664b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9508959f1b29f3d073b960d9038a12a8') in 0.035094 seconds 
-  Import took 0.039768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.976540 seconds.
-  path: Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Staff/Staff_Textures/Staff_Basic.mat
-  artifactKey: Guid(f8ea7943930fc6e44ae39866fa349d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Staff/Staff_Textures/Staff_Basic.mat using Guid(f8ea7943930fc6e44ae39866fa349d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff87f1adac7f93ab8c0664bd0ed73ad5') in 0.050623 seconds 
-  Import took 0.056524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Staff/Staff_Textures/Staff_Epic.mat
-  artifactKey: Guid(cfb56399cccce3e4e8a4c320b5c68e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Staff/Staff_Textures/Staff_Epic.mat using Guid(cfb56399cccce3e4e8a4c320b5c68e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a66e04b744836b62b246aa00724642') in 0.077039 seconds 
-  Import took 0.081368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Staff/Staff_Textures/Staff_Medium.mat
-  artifactKey: Guid(d2bf295b931260844ae49c916d7fc5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Staff/Staff_Textures/Staff_Medium.mat using Guid(d2bf295b931260844ae49c916d7fc5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360f61be37fbe79d8a5a6bf66ddb4618') in 0.032005 seconds 
-  Import took 0.036166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1477.718290 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights
-  artifactKey: Guid(9751875b842089e46a0c3e5572f5bad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights using Guid(9751875b842089e46a0c3e5572f5bad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903042e07fc7ac5e0aa12df1d2f06d04') in 0.005164 seconds 
-  Import took 0.010827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2897.642416 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b8a83108c21a16d83dab4144ce8942') in 0.006579 seconds 
-  Import took 0.060289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1284.539510 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05ebc07a1893088ee25041439082a3f') in 0.061976 seconds 
-  Import took 0.068554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.986576 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbc040f9a2e7e46cb263bb8ddb20629') in 0.016707 seconds 
-  Import took 0.021609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.459109 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6927ce55808dc61fa6a6681051ac3561') in 0.014412 seconds 
-  Import took 0.019366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.467467 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301c247a5c819a160ee08c4d94a1a675') in 0.014932 seconds 
-  Import took 0.019525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.430339 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ebe9a445146ed74e384832c91e72ad') in 0.013973 seconds 
-  Import took 0.018319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.281116 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa70511b70482c2b58da8aea5b3e9c5d') in 0.015984 seconds 
-  Import took 0.020682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.438980 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fc8248ffbaa7e6e7f5107ac712de17') in 0.013644 seconds 
-  Import took 0.018349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.159337 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f7e5eb7b5c1cff32ca5726125ad88e') in 0.019908 seconds 
-  Import took 0.024908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.004448 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b0590f8c263a1cd49d51f5693974b8') in 0.013493 seconds 
-  Import took 0.019245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.231165 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645d854745fc4ba8ecaadc660395cb11') in 0.018398 seconds 
-  Import took 0.022842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.029170 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb1c9c54107a335c964285956c583a9') in 0.020557 seconds 
-  Import took 0.025504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.447016 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7b0d859853e5ef679ef2b0d7c072d9') in 0.014608 seconds 
-  Import took 0.019696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.399227 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56109d19db08594ef9ebcfebe2ada924') in 0.015944 seconds 
-  Import took 0.020785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.644540 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cd0d5f81184b8b9dfb6923c2f0b07c') in 0.014037 seconds 
-  Import took 0.019173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.593526 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef899d2e0a638eb306d1510d4470ace8') in 0.012911 seconds 
-  Import took 0.017661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.824101 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9379308c72ed1f39360aae945d7eae4c') in 0.012918 seconds 
-  Import took 0.017369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.060551 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5ee337961f4a0aaa337f768672976c') in 0.014117 seconds 
-  Import took 0.018473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.750142 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82ba7b71636b554c886967f2c75259b') in 0.014319 seconds 
-  Import took 0.019143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.225510 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c72115c889ae1a65f43adc3418a49e') in 0.013923 seconds 
-  Import took 0.018732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.386176 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2b948856c3a1486a2e692fe8cbdf8a') in 0.014285 seconds 
-  Import took 0.018679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.986238 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca404bacb63bac5657f0f4aa6ecf572d') in 0.013133 seconds 
-  Import took 0.018166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.633769 seconds.
-  path: Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab
-  artifactKey: Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/UltimateDungeonPack/Prefabs/Lights/Torch_Wall.prefab using Guid(4b437f1c2454a2c409b1b7f35e69d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65173508f620c14918acc30f8652912') in 0.014441 seconds 
-  Import took 0.019401 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011809 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.372 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1373ms)
-		BeginReloadAssembly (221ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (105ms)
-		EndReloadAssembly (1090ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (455ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (336ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2595 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.5 MB.
-System memory in use after: 122.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3222.
-Total: 4.725600 ms (FindLiveObjects: 0.333600 ms CreateObjectMapping: 0.145700 ms MarkObjects: 4.218800 ms  DeleteObjects: 0.026200 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3144.
+Total: 3.794500 ms (FindLiveObjects: 0.337700 ms CreateObjectMapping: 0.187200 ms MarkObjects: 3.189800 ms  DeleteObjects: 0.078800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -433,59 +130,42 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011027 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1098ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (925ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (369ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (272ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2595 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.6 MB.
-System memory in use after: 122.8 MB.
+Received Import Request.
+  path: Assets/Materials/Main Menu Background 3.mat
+  artifactKey: Guid(f630c09f061550848b7eb0d332aa2eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Main Menu Background 3.mat using Guid(f630c09f061550848b7eb0d332aa2eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8856ec8a9260219129db871f166de4f') in 0.296542 seconds 
+  Import took 0.301403 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3224.
-Total: 3.705400 ms (FindLiveObjects: 0.245000 ms CreateObjectMapping: 0.119000 ms MarkObjects: 3.320400 ms  DeleteObjects: 0.019700 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/cloister_black/CloisterBlack.ttf
+  artifactKey: Guid(a935d7044be0b3444ab0e0938527887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cloister_black/CloisterBlack.ttf using Guid(a935d7044be0b3444ab0e0938527887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e20f076e96fc6ecbf885176de9f96d') in 0.035805 seconds 
+  Import took 0.040142 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Materials/Main Menu Background 1.mat
+  artifactKey: Guid(5f8d44748eb227b42990f8ed8e80a729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Main Menu Background 1.mat using Guid(5f8d44748eb227b42990f8ed8e80a729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27270d411c2ba033666f5960f1c03706') in 0.013237 seconds 
+  Import took 0.017251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Materials/Main Menu Background.mat
+  artifactKey: Guid(b7fff3edad77cce48a8cc054ac35d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Main Menu Background.mat using Guid(b7fff3edad77cce48a8cc054ac35d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0da29aa4851eb1369333ca76823d69') in 0.012872 seconds 
+  Import took 0.017039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Materials/Main Menu Background 2.mat
+  artifactKey: Guid(1343b48a81a45d24e84b9586412dd9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Main Menu Background 2.mat using Guid(1343b48a81a45d24e84b9586412dd9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8489abfa2ceee492d734bb7606c0fae') in 0.022934 seconds 
+  Import took 0.028183 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
