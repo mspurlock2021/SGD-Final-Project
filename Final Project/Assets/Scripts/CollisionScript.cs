@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class CollisionScript : MonoBehaviour
 {
+
     public GameObject player;
 
-    //Detect collisions between the GameObjects with Colliders attached
-    private void OnTriggerEnter(Collider other)
-        {
-            SceneManager.LoadScene("DeathScreen");
-        }
+    void OnTriggerEnter(Collider other)
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        SceneManager.LoadScene("DeathScreen");
+    }
 }
