@@ -2,6 +2,7 @@
 
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -34,11 +35,6 @@ public class PlayerMovement : MonoBehaviour
     public float slideForce = 400;
     public float slideCounterMovement = 0.2f;
 
-    //Jumping
-    private bool readyToJump = true;
-    private float jumpCooldown = 0.25f;
-    public float jumpForce = 550f;
-
     //Input
     float x, y;
     bool jumping, sprinting, crouching;
@@ -46,6 +42,13 @@ public class PlayerMovement : MonoBehaviour
     //Sliding
     private Vector3 normalVector = Vector3.up;
     private Vector3 wallNormalVector;
+
+    void OnParticleCollision()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        SceneManager.LoadScene("DeathScreen");
+    }
 
     void Awake()
     {
