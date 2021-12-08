@@ -13,7 +13,7 @@ public class AudioVolume : MonoBehaviour
     void Start()
     {
         //Initiate the Slider value to half way
-        slider = 1f;
+        slider = 0.25f;
         //Fetch the AudioSource from the GameObject
         source = GetComponent<AudioSource>();
         //Play the AudioClip attached to the AudioSource on startup
@@ -26,11 +26,11 @@ public class AudioVolume : MonoBehaviour
 
         if (GameIsPaused == false)
         {
-            slider = 1f;
+            slider = 0.25f;
         }
         else
         {
-            slider = 0.25f;
+            slider = 0.15f;
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
