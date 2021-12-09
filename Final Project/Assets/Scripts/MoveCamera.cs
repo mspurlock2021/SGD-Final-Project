@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveCamera : MonoBehaviour
 {
+    public static bool GameIsPaused = false;
 
     public Transform player;
 
